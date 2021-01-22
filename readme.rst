@@ -68,3 +68,16 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+
+***************
+Implementation
+***************
+1)After Installing codeigniter through site. Or Clone this project.
+2)Go to Elastic Email and register yourself for free
+3)Get Your Key by generating in Settings section using API{I have Use this} or SMTP.
+4)Paste your Key in Sending_model.php of Models.
+5)And create some email accounts for sending mails.
+6)Important part is to create .csv file with valid headers.
+7)Understand the Assignment and then go for it.
+8)Ping me if you found issue.
