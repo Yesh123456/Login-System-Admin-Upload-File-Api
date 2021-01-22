@@ -80,7 +80,11 @@ _2)Go to Elastic Email and register yourself for free_
 _3)Get Your Key by generating in Settings section using API{I have Use this} or SMTP._
 
 _4)Paste your Key in Sending_model.php of Models._
+
 _5)And create some email accounts for sending mails._
+
 _6)Important part is to create .csv file with valid headers._
+
 _7)Understand the Assignment and then go for it._
+
 _8)Ping me if you found issue._
