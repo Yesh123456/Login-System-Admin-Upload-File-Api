@@ -4,7 +4,7 @@ class Sending_model extends CI_Model
  	function send()
  	{
  		$target_url = "https://api.elasticemail.com/v2/email/send";
- 		$apikey = "68C9DD4009A7760C2FAEE3F686CD2703E46ED4BB8D5F587015CC35DECFDBDD30F99C5095B51A3D40FAE98015F8B1B6C8";
+ 		$apikey = "Your APi KEY";
  		
  		$query = $this->db->get('upload');
  	
@@ -16,8 +16,8 @@ class Sending_model extends CI_Model
  					<b>User-id =$user and Password=$password<b>";
  			try{
 
-	 			$post = array('from' => 'isco30427@gmail.com',
-						'fromName' => 'Isco Jack',
+	 			$post = array('from' => 'Your email to send',
+						'fromName' => 'Your name to show on reciver side',
 						'apikey' => $apikey,
 						'subject' => 'Enable Account verification',
 						'to' => $row->email, 
